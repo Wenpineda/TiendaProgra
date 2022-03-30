@@ -1,0 +1,1 @@
+C:\Users\cance\OneDrive\Escritorio\CICLOS\CICLO III\Programacion I\TiendaProgra\TiendaProgra\obj\Debug\net6.0-windows\TiendaProgra.csproj.AssemblyReference.cache
