@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tMrnIl6jGkAVuucs2B54yviykFfjpUFmNO75qLLE+4bYES2aWU53qcR7Ade0XxsFUhYc9Hw2FUI4emcn4zbo1g==",
+  "dgSpecHash": "seAynXMnpok/XqIdDbJpVi6pnd2xyjfpi97yd9WRujwxyBWg/poZZt1JTuZhdOUOIjDBLx3Tt4DCW9QklQHmkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cance\\OneDrive\\Escritorio\\CICLOS\\CICLO III\\Programacion I\\TVStore\\TVStore\\TVStore.csproj",
+  "projectFilePath": "C:\\Users\\cance\\OneDrive\\Documentos\\GitHub\\TiendaProgra\\TVStore\\TVStore\\TVStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cance\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\cance\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

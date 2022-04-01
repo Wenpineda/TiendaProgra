@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cance\\OneDrive\\Escritorio\\CICLOS\\CICLO III\\Programacion I\\TVStore\\TVStore\\TVStore.csproj",
+      "projectUniqueName": "C:\\Users\\cance\\OneDrive\\Documentos\\GitHub\\TiendaProgra\\TVStore\\TVStore\\TVStore.csproj",
       "projectName": "TVStore",
-      "projectPath": "C:\\Users\\cance\\OneDrive\\Escritorio\\CICLOS\\CICLO III\\Programacion I\\TVStore\\TVStore\\TVStore.csproj",
+      "projectPath": "C:\\Users\\cance\\OneDrive\\Documentos\\GitHub\\TiendaProgra\\TVStore\\TVStore\\TVStore.csproj",
       "packagesPath": "C:\\Users\\cance\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cance\\OneDrive\\Escritorio\\CICLOS\\CICLO III\\Programacion I\\TVStore\\TVStore\\obj\\",
+      "outputPath": "C:\\Users\\cance\\OneDrive\\Documentos\\GitHub\\TiendaProgra\\TVStore\\TVStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cance\\AppData\\Roaming\\NuGet\\NuGet.Config",

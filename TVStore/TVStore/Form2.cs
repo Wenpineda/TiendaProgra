@@ -40,11 +40,17 @@ namespace TVStore
             comando.Parameters.AddWithValue("email", textBoxemail.Text);
             comando.ExecuteNonQuery();
             MessageBox.Show("Registro Exitoso");
+
+            String Select = "Select * from Cliente";
+            SqlDataAdapter adapter = new SqlDataAdapter(Select, conexion);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            string query = "Update Cliente set nombre='" + textBoxnombre.Text + "',apellido='" + textBoxapellido.Text + "',telefono=" + textBoxtelefono.Text + "WHERE id=" + textBoxID.Text + " ";
+            string query = "Update Cliente set nombre='" + textBoxnombre.Text + "',apellido='" + textBoxapellido.Text + "',telefono=" + textBoxtelefono.Text +  "WHERE id=" + textBoxID.Text + " ";
             conexion.Open();
             SqlCommand comando = new SqlCommand(query, conexion);
             int cant;
@@ -54,6 +60,12 @@ namespace TVStore
                 MessageBox.Show("Se Modifico correctamente");
 
             }
+
+            String Select = "Select * from Cliente";
+            SqlDataAdapter adapter = new SqlDataAdapter(Select, conexion);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dataGridView1.DataSource = dt;
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -63,7 +75,7 @@ namespace TVStore
             SqlCommand comando = new SqlCommand(query, conexion);
             comando.ExecuteNonQuery();
             MessageBox.Show("Se elimino correctamente");
-
+    
             String Select = "Select * from Cliente";
             SqlDataAdapter adapter = new SqlDataAdapter(Select, conexion);
             DataTable dt = new DataTable();
