@@ -46,6 +46,7 @@ namespace TVStore
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
+            conexion.Close();
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -60,12 +61,13 @@ namespace TVStore
                 MessageBox.Show("Se Modifico correctamente");
 
             }
-
             String Select = "Select * from Cliente";
             SqlDataAdapter adapter = new SqlDataAdapter(Select, conexion);
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
+            conexion.Close();
+
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -81,6 +83,7 @@ namespace TVStore
             DataTable dt = new DataTable();
             adapter.Fill(dt);
             dataGridView1.DataSource = dt;
+            conexion.Close();
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
